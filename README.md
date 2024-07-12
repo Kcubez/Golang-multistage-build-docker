@@ -91,5 +91,6 @@ This Dockerfile uses multiple stages to build the Go application in one stage an
 - **Smaller Image Size**: By copying only the binary to the final image, we exclude unnecessary build tools and dependencies.
 - **Improved Security**: A smaller image with fewer components reduces the attack surface.
 
+
 ### Reference
 https://github.com/iam-veeramalla/Docker-Zero-to-Hero/blob/main/examples/golang-multi-stage-docker-build/Dockerfile
