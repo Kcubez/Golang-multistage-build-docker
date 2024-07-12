@@ -27,3 +27,4 @@ COPY --from=builder /app/calculator /calculator
 
 # Run the binary
 ENTRYPOINT ["/calculator"]
+
